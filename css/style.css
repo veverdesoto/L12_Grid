@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 1%;
+
+}
+
+.logo {
+	background-color: gray;
+	height: 60px;
+	margin-bottom: 1%;;
+}
+
+.header {
+	background-color: gray;
+	height: 120px;
+	margin-bottom: 1%;
+}
+
+.text {
+	background-color: gray;
+	height: 90px;
+	margin-bottom: 1%;
+}
+
+.box div{
+	background-color: gray;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 240px;
+	grid-gap: 1em;
+	margin-bottom: 1%;
+}
+
+.footer {
+	background-color: gray;
+	height: 30px;
+	
+}
